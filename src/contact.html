@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Contact</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='./css/main.css'>
+    
+    <link rel='stylesheet' type='text/css' media='screen' href='./css/contact.css'>
+</head>
+<body>
+    <header class="main-header">
+        <section class="bread-crumbs" onclick="DisplayNav()">
+            <div class="bread-crumb"></div>
+            <div class="bread-crumb"></div>
+            <div class="bread-crumb"></div>
+        </section>
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="about.html">About</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main style="color: black">
+        <h1>Let's work together.</h1>
+        <form action="./thank-you.html">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="fname" placeholder="Last-Name First-Name" autocomplete="name" minlength="1" required/>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="sunkanmifafowora@gmail.com" autocomplete="email" required/>
+
+        <label for="message">Message:</label>
+        <textarea name="message" rows="40" cols="10" id="message" placeholder="Hey Sunkanmi! I would like to work with you on..." required></textarea>
+
+        <input type="submit" id="submit-button"/>
+        </form>
+    </main>
+
+    <footer>
+        <p>Olasunkanmi Fafowora &copy; 2020.</p>
+        <p href="">Design (inspiration) - Henry Desroches</p>
+    </footer>
+
+    <script type="text/javascript" src='main.js'></script>
+</body>
+</html>
